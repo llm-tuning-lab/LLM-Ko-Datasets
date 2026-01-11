@@ -81,6 +81,29 @@
 | **KOREAN-SyntheticText-1.5B** | 1.5B | HAERAE-HUB 한국어 합성 텍스트. Pre-training용. | - | [🤗 HAERAE-HUB/KOREAN-SyntheticText-1.5B](https://huggingface.co/datasets/HAERAE-HUB/KOREAN-SyntheticText-1.5B) |
 | **ko_llm_annotations v3** | - | 한국어 LLM 합성 데이터. 2024년 9월 업데이트. | - | [🤗 devngho/ko_llm_annotations](https://huggingface.co/datasets/devngho/ko_llm_annotations) |
 
+#### 🚀 KORMo-Team 대규모 한국어 데이터셋 (2025 최신) ⭐⭐
+> 📦 **KORMo (Korean Open Reasoning Model)** 프로젝트에서 공개한 대규모 한국어 데이터셋입니다.
+> [📜 논문: arXiv:2510.09426](https://arxiv.org/abs/2510.09426)
+
+| 이름 | 크기 | 설명 | 용도 | 링크 |
+|------|------|------|------|------|
+| **korean-web-collection** | 대용량 | 한국어 웹 수집 데이터. KORMo-10B Pre-training용. | Pre-training | [🤗 KORMo-Team/korean-web-collection](https://huggingface.co/datasets/KORMo-Team/korean-web-collection) |
+| **korean-public-corpus** | 대용량 | 한국어 공공 코퍼스. | Pre-training | [🤗 KORMo-Team/korean-public-corpus](https://huggingface.co/datasets/KORMo-Team/korean-public-corpus) |
+| **Kor-CC-Resili-Parsed** | 대용량 | 한국어 Common Crawl 정제 데이터. | Pre-training | [🤗 KORMo-Team/Kor-CC-Resili-Parsed](https://huggingface.co/datasets/KORMo-Team/Kor-CC-Resili-Parsed) |
+| **UltraFineWeb-ko-synth** | 1.13k likes | 한국어 UltraFineWeb 합성 데이터. | Pre-training | [🤗 KORMo-Team/UltraFineWeb-ko-synth](https://huggingface.co/datasets/KORMo-Team/UltraFineWeb-ko-synth) |
+| **FineWeb2-ko-synth** | 644 likes | FineWeb2 한국어 합성 버전. | Pre-training | [🤗 KORMo-Team/FineWeb2-ko-synth](https://huggingface.co/datasets/KORMo-Team/FineWeb2-ko-synth) |
+| **Cosmopedia-ko-synth** | 949 likes | Cosmopedia 한국어 합성 버전. 교과서 스타일. | Mid-training | [🤗 KORMo-Team/Cosmopedia-ko-synth](https://huggingface.co/datasets/KORMo-Team/Cosmopedia-ko-synth) |
+| **NemoPost-ko-synth** | 386 likes | Nemotron Post-training 스타일 한국어 합성. | Mid-training | [🤗 KORMo-Team/NemoPost-ko-synth](https://huggingface.co/datasets/KORMo-Team/NemoPost-ko-synth) |
+| **NemoPost-ko-translated** | 285 likes | Nemotron 데이터 한국어 번역. | Mid-training | [🤗 KORMo-Team/NemoPost-ko-translated](https://huggingface.co/datasets/KORMo-Team/NemoPost-ko-translated) |
+| **IF-bilingual-sft** | 141 likes | 한영 이중언어 SFT 데이터. | SFT | [🤗 KORMo-Team/IF-bilingual-sft](https://huggingface.co/datasets/KORMo-Team/IF-bilingual-sft) |
+| **NemoPost-ko-synth-sft** | 225 likes | SFT용 Nemotron 스타일 데이터. | SFT | [🤗 KORMo-Team/NemoPost-ko-synth-sft](https://huggingface.co/datasets/KORMo-Team/NemoPost-ko-synth-sft) |
+| **preference-dataset-qwen3** | 115 likes | Qwen3 기반 DPO/Preference 데이터. | DPO | [🤗 KORMo-Team/preference-dataset-qwen3](https://huggingface.co/datasets/KORMo-Team/preference-dataset-qwen3) |
+
+> 📦 **KORMo 컬렉션**:
+> - [Pre-training Datasets](https://huggingface.co/collections/KORMo-Team/kormo-pretraining-datasets) (14개)
+> - [Mid-training Datasets](https://huggingface.co/collections/KORMo-Team/kormo-midtraining-datasets) (7개)
+> - [SFT Datasets](https://huggingface.co/collections/KORMo-Team/kormo-sft-datasets) (5개)
+
 #### 🌐 한영 번역/병렬 말뭉치 (Pre-training 활용 가능) ⭐
 | 이름 | 크기 | 설명 | 라이센스 | 링크 |
 |------|------|------|----------|------|
@@ -507,4 +530,3 @@ def translate_to_korean(text):
 > 📅 **Last Updated**: 2026-01-10
 > 
 > 💡 **기여하기**: 새로운 데이터셋 발견 시 PR 또는 Issue로 알려주세요!
-
