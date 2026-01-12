@@ -41,7 +41,7 @@
 | **SmolLM-Corpus** | 600B tokens | SmolLM 학습용 경량 코퍼스. Cosmopedia v2 + FineWeb-Edu + Python-Edu 혼합. | Apache 2.0 | [🤗 HuggingFaceTB/smollm-corpus](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus) |
 | **The Stack v2** | 3B+ files | 600개 언어 코드 데이터. 코드 LLM 학습 필수. | 다양함 | [🤗 bigcode/the-stack-v2](https://huggingface.co/datasets/bigcode/the-stack-v2) |
 
-#### � 수학/과학 Pre-training 데이터셋 (VAETKI 모델 사용) ⭐
+#### 수학/과학 Pre-training 데이터셋 (VAETKI 모델 사용) ⭐
 > 📦 **NC-AI VAETKI 100B 모델** Pre-training에 사용된 고품질 수학/과학 데이터셋입니다.
 
 | 이름 | 크기 | 설명 | 라이센스 | 링크 |
@@ -54,7 +54,7 @@
 | **Stack-Edu** | 125B tokens | The Stack v2에서 **교육적 코드**만 필터링. FineWeb-Edu와 동일 방법론. MultiPL-E 성능 향상. | Apache 2.0 | [🤗 HuggingFaceTB/stack-edu](https://huggingface.co/datasets/HuggingFaceTB/stack-edu) |
 | **StackExchange_Mar2023** | 52.7GB | StackExchange 전체 Q&A 데이터 (2023년 3월). 기술 지식 풍부. | CC BY-SA | [🤗 HuggingFaceGECLM/StackExchange_Mar2023](https://huggingface.co/datasets/HuggingFaceGECLM/StackExchange_Mar2023) |
 
-#### �🚀 NVIDIA Nemotron Pre-training Datasets (2025 최신) ⭐
+#### 🚀 NVIDIA Nemotron Pre-training Datasets (2025 최신) ⭐
 | 이름 | 크기 | 설명 | 라이센스 | 링크 |
 |------|------|------|----------|------|
 | **Nemotron-CC-v2.1** | 3.8B docs | Nemotron 모델 학습용 **최고 품질** CommonCrawl 정제 데이터. | NVIDIA License | [🤗 nvidia/Nemotron-CC-v2.1](https://huggingface.co/datasets/nvidia/Nemotron-CC-v2.1) |
