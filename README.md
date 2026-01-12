@@ -41,7 +41,20 @@
 | **SmolLM-Corpus** | 600B tokens | SmolLM 학습용 경량 코퍼스. Cosmopedia v2 + FineWeb-Edu + Python-Edu 혼합. | Apache 2.0 | [🤗 HuggingFaceTB/smollm-corpus](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus) |
 | **The Stack v2** | 3B+ files | 600개 언어 코드 데이터. 코드 LLM 학습 필수. | 다양함 | [🤗 bigcode/the-stack-v2](https://huggingface.co/datasets/bigcode/the-stack-v2) |
 
-#### 🚀 NVIDIA Nemotron Pre-training Datasets (2025 최신) ⭐
+#### � 수학/과학 Pre-training 데이터셋 (VAETKI 모델 사용) ⭐
+> 📦 **NC-AI VAETKI 100B 모델** Pre-training에 사용된 고품질 수학/과학 데이터셋입니다.
+
+| 이름 | 크기 | 설명 | 라이센스 | 링크 |
+|------|------|------|----------|------|
+| **FineWeb-2** | 3T+ words | 96개 CommonCrawl 스냅샷 기반 **1000개 이상 언어** 지원. FineWeb의 다국어 버전. VAETKI 한국어 54.5B 토큰 사용. | ODC-BY 1.0 | [🤗 HuggingFaceFW/fineweb-2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) |
+| **FineWeb2-HQ** | Top 10% | FineWeb2의 **고품질 필터링 서브셋**. XLM-RoBERTa 분류기로 상위 10% 문서만 선택. 6배 빠른 학습 효과. | ODC-BY 1.0 | [🤗 epfml/FineWeb2-HQ](https://huggingface.co/datasets/epfml/FineWeb2-HQ) |
+| **FineMath** | 34B~54B tokens | CommonCrawl에서 필터링한 **수학 교육 콘텐츠**. Markdown/LaTeX 형식. GSM8k/MATH 성능 향상. | ODC-BY 1.0 | [🤗 HuggingFaceTB/finemath](https://huggingface.co/datasets/HuggingFaceTB/finemath) |
+| **proof-pile-2** | 28B+ tokens | Llemma 학습용 **수학 증명 데이터**. ArXiv + AlgebraicStack + OpenWebMath 포함. | 다양함 | [🤗 EleutherAI/proof-pile-2](https://huggingface.co/datasets/EleutherAI/proof-pile-2) |
+| **MegaMath** | 300B+ tokens | LLM360 프로젝트의 **대규모 수학 코퍼스**. 웹/코드/합성 데이터 통합. | Apache 2.0 | [🤗 LLM360/MegaMath](https://huggingface.co/datasets/LLM360/MegaMath) |
+| **Stack-Edu** | 125B tokens | The Stack v2에서 **교육적 코드**만 필터링. FineWeb-Edu와 동일 방법론. MultiPL-E 성능 향상. | Apache 2.0 | [🤗 HuggingFaceTB/stack-edu](https://huggingface.co/datasets/HuggingFaceTB/stack-edu) |
+| **StackExchange_Mar2023** | 52.7GB | StackExchange 전체 Q&A 데이터 (2023년 3월). 기술 지식 풍부. | CC BY-SA | [🤗 HuggingFaceGECLM/StackExchange_Mar2023](https://huggingface.co/datasets/HuggingFaceGECLM/StackExchange_Mar2023) |
+
+#### �🚀 NVIDIA Nemotron Pre-training Datasets (2025 최신) ⭐
 | 이름 | 크기 | 설명 | 라이센스 | 링크 |
 |------|------|------|----------|------|
 | **Nemotron-CC-v2.1** | 3.8B docs | Nemotron 모델 학습용 **최고 품질** CommonCrawl 정제 데이터. | NVIDIA License | [🤗 nvidia/Nemotron-CC-v2.1](https://huggingface.co/datasets/nvidia/Nemotron-CC-v2.1) |
@@ -51,6 +64,9 @@
 | **Nemotron-Pretraining-Code-v2** | 836M docs | 코드 Pre-training 데이터 v2. | NVIDIA License | [🤗 nvidia/Nemotron-Pretraining-Code-v2](https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Code-v2) |
 | **Nemotron-Pretraining-Specialized-v1** | 60.7M docs | 전문 도메인 Pre-training 데이터. | NVIDIA License | [🤗 nvidia/Nemotron-Pretraining-Specialized-v1](https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-Specialized-v1) |
 | **Nemotron-Pretraining-SFT-v1** | 299M docs | Pre-training 단계 SFT 데이터. | NVIDIA License | [🤗 nvidia/Nemotron-Pretraining-SFT-v1](https://huggingface.co/datasets/nvidia/Nemotron-Pretraining-SFT-v1) |
+| **Nemotron-PrismMath** | 1M pairs | Prismatic Synthesis로 생성한 **다양한 수학 문제-풀이 쌍**. RL 학습용 기반 데이터. | CC BY 4.0 | [🤗 nvidia/Nemotron-PrismMath](https://huggingface.co/datasets/nvidia/Nemotron-PrismMath) |
+| **OpenScience** | 6M pairs | STEM/법/경제/인문 등 **다분야 합성 QA 데이터**. GPQA-Diamond, MMLU-Pro 성능 향상용. | CC BY 4.0 | [🤗 nvidia/OpenScience](https://huggingface.co/datasets/nvidia/OpenScience) |
+| **OpenCodeGeneticInstruct** | 15M+ | Genetic-Instruct 방식으로 생성한 **Python 코딩 instruction**. 코드 생성 능력 향상. | CC BY 4.0 | [🤗 nvidia/OpenCodeGeneticInstruct](https://huggingface.co/datasets/nvidia/OpenCodeGeneticInstruct) |
 
 > 📦 **NVIDIA Nemotron Collection**: [🤗 nvidia/Nemotron-Pre-Training-Datasets](https://huggingface.co/collections/nvidia/nemotron-pre-training-datasets)
 
@@ -71,7 +87,7 @@
 | **Korean Wikipedia Edu** | 필터링 | 교육적 내용 필터링된 한국어 위키피디아. | CC BY-SA | [🤗 devngho/korean-wikipedia-edu](https://huggingface.co/datasets/devngho/korean-wikipedia-edu) |
 | **kowikitext** | ~100MB | 한국어 위키피디아 텍스트 정제 버전. | CC BY-SA | [🤗 heegyu/kowikitext](https://huggingface.co/datasets/heegyu/kowikitext) |
 | **Namuwiki Dataset** | 대용량 | 나무위키 덤프 데이터 (Alpaca 형식이지만 지식 추출용으로 Pre-training 활용 가능). | 비상업적 | [🤗 psymon/namuwiki_alpaca_dataset](https://huggingface.co/datasets/psymon/namuwiki_alpaca_dataset) |
-
+| **WanJuan-Korean** | 280GB+ | OpenDataLab의 **대규모 한국어 코퍼스**. 7개 대분류, 34개 소분류. 역사/정치/문화/백과 등 포함. VAETKI 68.9B 토큰 사용. | CC BY 4.0 | [🤗 opendatalab/WanJuan-Korean](https://huggingface.co/datasets/opendatalab/WanJuan-Korean) |
 
 #### 📝 한국어 합성/교과서 데이터셋 (허깅페이스에서 바로 사용 가능) ⭐
 | 이름 | 크기 | 설명 | 라이센스 | 링크 |
@@ -167,6 +183,7 @@
 | **NuminaMath-TIR** | 860K | 영어 | AI Math Olympiad 수상 데이터. **Tool-Integrated Reasoning**. | [🤗 AI-MO/NuminaMath-TIR](https://huggingface.co/datasets/AI-MO/NuminaMath-TIR) |
 | **NuminaMath-CoT** | 859K | 영어 | Chain-of-Thought 수학 문제 풀이. | [🤗 AI-MO/NuminaMath-CoT](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT) |
 | **OpenMathInstruct-2** | 14M | 영어 | GSM8K/MATH 기반 Llama-3.1-405B 합성 데이터. | [🤗 nvidia/OpenMathInstruct-2](https://huggingface.co/datasets/nvidia/OpenMathInstruct-2) |
+| **AceReason-1.1-SFT** | 4M | 영어 | DeepSeek-R1로 생성한 **수학/코드 추론 SFT**. OpenMathReasoning, OpenCodeReasoning 등 통합. | [🤗 nvidia/AceReason-1.1-SFT](https://huggingface.co/datasets/nvidia/AceReason-1.1-SFT) |
 
 ### 추론 능력 향상을 위한 모델 (참고)
 
@@ -527,6 +544,6 @@ def translate_to_korean(text):
 
 ---
 
-> 📅 **Last Updated**: 2026-01-10
+> 📅 **Last Updated**: 2026-01-12
 > 
 > 💡 **기여하기**: 새로운 데이터셋 발견 시 PR 또는 Issue로 알려주세요!
