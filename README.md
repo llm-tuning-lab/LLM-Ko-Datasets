@@ -96,6 +96,8 @@
 | **korean-textbooks-edu** | - | 교육적 한국어 교과서 데이터. | - | [🤗 devngho/korean-textbooks-edu](https://huggingface.co/datasets/devngho/korean-textbooks-edu) |
 | **KOREAN-SyntheticText-1.5B** | 1.5B | HAERAE-HUB 한국어 합성 텍스트. Pre-training용. | - | [🤗 HAERAE-HUB/KOREAN-SyntheticText-1.5B](https://huggingface.co/datasets/HAERAE-HUB/KOREAN-SyntheticText-1.5B) |
 | **ko_llm_annotations v3** | - | 한국어 LLM 합성 데이터. 2024년 9월 업데이트. | - | [🤗 devngho/ko_llm_annotations](https://huggingface.co/datasets/devngho/ko_llm_annotations) |
+| **korean-webtext-edu** | 128만 docs | KOREAN-WEBTEXT에서 **교육적 콘텐츠 필터링**. Qwen3-next-80b-a3b로 점수 산정. | MIT | [🤗 eliceai/korean-webtext-edu](https://huggingface.co/datasets/eliceai/korean-webtext-edu) |
+| **korean-fineweb-edu-demo** | 5% 샘플 | FineWeb-Edu **한국어 번역** 데모 버전. LLM 학습용 교육 텍스트. | MIT | [🤗 eliceai/korean-fineweb-edu-demo](https://huggingface.co/datasets/eliceai/korean-fineweb-edu-demo) |
 
 #### 🚀 KORMo-Team 대규모 한국어 데이터셋 (2025 최신) ⭐⭐
 > 📦 **KORMo (Korean Open Reasoning Model)** 프로젝트에서 공개한 대규모 한국어 데이터셋입니다.
